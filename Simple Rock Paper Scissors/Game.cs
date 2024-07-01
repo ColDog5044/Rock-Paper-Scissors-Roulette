@@ -117,6 +117,17 @@ namespace RockPaperScissors
                         }
                         break;
                 }
+
+                if (playerScore == roundsToWin)
+                {
+                    Console.WriteLine("You win the game!");
+                    Console.ReadLine();
+                }
+                else if (cpuScore == roundsToWin)
+                {
+                    Console.WriteLine("CPU wins the game!");
+                    Console.ReadLine();
+                }
             }
         }
     }
