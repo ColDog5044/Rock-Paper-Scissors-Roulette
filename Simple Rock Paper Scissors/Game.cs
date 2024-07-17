@@ -6,7 +6,7 @@ namespace RockPaperScissors
     {
         static void Main( string[] args )
         {
-            Console.WriteLine("Rock Paper Scissors Game\n");
+            Console.WriteLine("ColDog's Rock Paper Scissors Game\n");
             Console.WriteLine("Play best of 1, 3, 5, or 7 rounds?");
             int roundChoice = Convert.ToInt32(Console.ReadLine() ?? "");
             int roundsToWin;
@@ -43,9 +43,10 @@ namespace RockPaperScissors
 
             while (playerScore != roundsToWin && cpuScore != roundsToWin)
             {
-                Console.WriteLine("Rock Paper Scissors Game");
-                Console.WriteLine("------------------------------");
-                Console.WriteLine($"Player Score: {playerScore} | CPU Score: {cpuScore}\n");
+                Console.WriteLine("ColDog's Rock Paper Scissors Game");
+                Console.WriteLine("----------------------------------");
+                Console.WriteLine($"| Player Score: {playerScore} | CPU Score: {cpuScore} |");
+                Console.WriteLine("----------------------------------\n");
 
                 // Get Player Choice
                 Console.WriteLine("Choose Rock (r), Paper (p), or Scissors (s): ");

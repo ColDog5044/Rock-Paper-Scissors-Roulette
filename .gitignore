@@ -251,3 +251,7 @@ FakesAssemblies/
 
 # Analyzer Results
 AnalyzerResults/
+
+*/bin/
+*/obj/
+*/.vs/
